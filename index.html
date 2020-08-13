@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Admin Console</title>
+</head>
+<body>
+    <div id="inset">
+        <h1>Cadastro de Placas de Vídeo</h1>
+        <h2>Nome da GPU</h2>
+        <input type="text" id="title">
+        <h3>Value:</h3>
+        <input type="text"  id="value">
+        <h3>Data Lançamento:</h3>
+        <input type="text" id="release">
+        <h3>Preço de Lançamento:</h3>
+        <input type="text" id="launch_price">
+        <h3>Microarquitetura</h3>
+        <input type="text" id="microarchitecture">
+        <h3>Die Size</h3>
+        <input type="text" id="die_size">
+        <h3>Nome de gpu</h3>
+        <input type="text" id="gpu_name">
+        <h3>Processo de Fabricação</h3>
+        <input type="text" id="manufacturing_process">
+        <h3>Número de Transistores:</h3>
+        <input type="text" id="transistors">
+        <h3>TDP</h3>
+        <input type="text" id="thermal_design_power">
+        <h3>Interface</h3>
+        <input type="text" id="interface">
+        <h3>Suporte a Multi-GPU</h3>
+        <input type="text" id="multi_gpu_support">
+        <h3>Temperatura Máxima</h3>
+        <input type="text" id="maximum_temperature">
+        <h3>Frequência Base</h3>
+        <input type="text" id="base_frequency">
+        <h3>Frequência Boost</h3>
+        <input type="text" id="boost_frequency">
+        <h3>Unidades de Sombreamento<h3>
+        <input type="text" id="shading_units">
+		<h3>RT Cores<h3>
+        <input type="text" id="rt_cores">
+        <h3>Texture Mapping Units</h3>
+        <input type="text" id="texture_mapping_units">
+        <h3>Rops</h3>
+        <input type="text" id="rops">
+        <h3>Pixel Fill Rate</h3>
+        <input type="text" id="pixel_fill_rate">
+        <h3>Pixel Fill Rate Boost</h3>
+        <input type="text" id="pixel_fill_rate_boost">
+        <h3>Texture Fill Rate</h3>
+        <input type="text" id="texture_fill_rate">
+        <h3>Texture Fill Rate Boost</h3>
+        <input type="text" id="texture_fill_rate_boost">
+        <h3>Tipo de Memória</h3>
+        <input type="text" id="memory_type">
+        <h3>Tamanho de Memória</h3>
+        <input type="text" id="memory_size">
+        <h3>Velocidade de Memória</h3>
+        <input type="text" id="memory_speed">
+        <h3>Bus de Memória</h3>
+        <input type="text" id="memory_bus">
+        <h3>Largura de Banda de Memória</h3>
+        <input type="text" id="memory_bandwidth">
+        <h3>DirectX(Nível)</h3>
+        <input type="text" id="directx">
+        <h3>OpenGL</h3>
+        <input type="text" id="opengl">
+        <h3>OpenCL</h3>
+        <input type="text" id="opencl">
+        <h3>Vulkan</h3>
+        <input type="text" id="vulkan">
+        <h3>Cuda</h3>
+        <input type="text" id="cuda">
+        <h3>G3D Mark</h3>
+        <input type="text" id="g3d_mark">
+        <button onclick="addVC()">Enviar</button>
+        <br><br><br>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
